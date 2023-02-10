@@ -1,0 +1,103 @@
+.footer {
+    margin: 18px auto;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 0.90rem;
+}
+
+.footer-icons {
+    margin-bottom: 5px;
+    display: flex;
+}
+
+.corazon {
+    background-image: url('/images/assets/iconos/corazon.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px;
+    background-size: 25px 25px;
+    margin-left: 1px;
+    cursor: pointer;
+}
+
+.corazon_active {
+    background-image: url('/images/assets/iconos/corazon_on.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px;
+    background-size: 25px 25px;
+    margin-left: 1px;
+    cursor: pointer;
+}
+
+.corazon:hover {
+    filter: invert(72%);
+    cursor: pointer;
+}
+
+.corazon_active:hover {
+    filter: invert(72%) sepia(10%) saturate(291%) hue-rotate(188deg) brightness(95%) contrast(88%);
+    cursor: pointer;
+}
+
+.footer-icons .burbuja {
+    background-image: url('/images/assets/iconos/burbuja.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px;
+    background-size: 31px 31px;
+    cursor: pointer;
+
+}
+
+.footer-icons .burbuja:hover {
+    filter: invert(72%) sepia(10%) saturate(291%) hue-rotate(188deg) brightness(95%) contrast(88%);
+    cursor: pointer;
+}
+
+.footer-icons .enviar {
+    background-image: url('/images/assets/iconos/enviar.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px;
+    background-size: 22px 22px;
+    margin-left: -2px;
+    cursor: pointer;
+}
+
+.footer-icons .enviar:hover {
+    filter: invert(72%) sepia(10%) saturate(291%) hue-rotate(188deg) brightness(95%) contrast(88%);
+    cursor: pointer;
+}
+
+.guardar-icon-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: auto;
+    margin-right: 1px;
+    cursor: pointer;
+}
+
+.guardar {
+    background-image: url('/images/assets/iconos/guardar.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px;
+    background-size: 22px 22px;
+    cursor: pointer;
+}
+
+.guardar_active {
+    background-image: url('/images/assets/iconos/guardar_active.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px;
+    background-size: 22px 22px;
+    cursor: pointer;
+}
+.guardar:hover {
+    filter: invert(72%) sepia(10%) saturate(291%) hue-rotate(188deg) brightness(95%) contrast(88%);
+    cursor: pointer;
+}

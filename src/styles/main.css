@@ -1,0 +1,10 @@
+.main-container {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-container .main-img {
+    width: 60.3935%;
+}
